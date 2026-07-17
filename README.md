@@ -17,4 +17,4 @@ The project implements a clear, three-layer architecture to handle data progress
 3.Gold-	Business-Ready Aggregates	The presentation layer designed specifically for BI and analytics. Data is modeled into a Star Schema with fact and dimension tables, optimized for high-performance queries.	Data modeling (Star Schema), creation of facts and dimensions, aggregation.
 
 ## License
-This project is licensed under the MIT License.
+>This project is licensed under the MIT License.
