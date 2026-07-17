@@ -9,8 +9,8 @@ The project implements a clear, three-layer architecture to handle data progress
 
 Layer	Name	Description	Key Actions
 
-Bronze-	Raw Ingestion	The landing zone for raw data ingested directly from source systems. Data is stored exactly as received, preserving the original format.	Data ingestion, basic staging.
+1.Bronze-	Raw Ingestion	The landing zone for raw data ingested directly from source systems. Data is stored exactly as received, preserving the original format.	Data ingestion, basic staging.
 
-Silver-	Cleansing & Conformance	The transformation layer where raw data is cleaned, standardized, and conformed. Business rules are applied, duplicates are removed, and data quality is ensured.	Data cleansing, standardization, deduplication, handling missing values.
+2.Silver-	Cleansing & Conformance	The transformation layer where raw data is cleaned, standardized, and conformed. Business rules are applied, duplicates are removed, and data quality is ensured.	Data cleansing, standardization, deduplication, handling missing values.
 
-Gold-	Business-Ready Aggregates	The presentation layer designed specifically for BI and analytics. Data is modeled into a Star Schema with fact and dimension tables, optimized for high-performance queries.	Data modeling (Star Schema), creation of facts and dimensions, aggregation.
+3.Gold-	Business-Ready Aggregates	The presentation layer designed specifically for BI and analytics. Data is modeled into a Star Schema with fact and dimension tables, optimized for high-performance queries.	Data modeling (Star Schema), creation of facts and dimensions, aggregation.
