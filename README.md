@@ -7,7 +7,7 @@ The primary goal is to centralize disparate data sources into a single source of
 
 The project implements a clear, three-layer architecture to handle data progressively.
 
-
+----
 Layer	Name:
 
 1.Bronze-	Raw Ingestion	The landing zone for raw data ingested directly from source systems. Data is stored exactly as received, preserving the original format.	Data ingestion, basic staging.
