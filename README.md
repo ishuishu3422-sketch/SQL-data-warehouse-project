@@ -1,5 +1,5 @@
 # SQL-data-warehouse-project
->SQL Server Analytics Hub &amp; E
+>SQL Server Analytics Hub 
 
 This project is a hands-on implementation of a modern data warehouse built entirely on Microsoft SQL Server. It follows the Medallion architecture (Bronze, Silver, Gold layers) to ingest, clean, and transform raw source data into a structured, analyst-ready dimensional model. The entire ETL process is automated using T-SQL stored procedures, ensuring a repeatable and scalable data pipeline.
 
