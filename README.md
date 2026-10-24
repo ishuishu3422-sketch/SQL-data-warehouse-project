@@ -1,5 +1,5 @@
+<img width="1253" height="788" alt="layout" src="https://github.com/user-attachments/assets/69af3ee5-f9bc-4025-a02e-3b19e0140041" />
 
-![Uploading image.png…]()
 
 # SQL-data-warehouse-project
 >SQL Server Analytics Hub 
