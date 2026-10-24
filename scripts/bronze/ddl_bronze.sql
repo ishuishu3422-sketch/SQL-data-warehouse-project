@@ -10,7 +10,7 @@ recreating the structure for the Bronze Layer data ingestion.
 */
 IF OBJECT_ID('bronze.crm_cust_info', 'U') IS NOT NULL
     DROP TABLE bronze.crm_cust_info;
-GO
+GO  
 
 CREATE TABLE bronze.crm_cust_info (
     cst_id              INT,
